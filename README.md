@@ -43,9 +43,3 @@ github_viz/
 ├── .gitignore        ← keeps .env out of git
 └── README.md
 ```
-
-## Security note
-Your `.env` file contains a real PAT — treat it like a password.
-- Never commit it (`.gitignore` handles this)
-- Never paste it in chat, issues, or Stack Overflow
-- If you accidentally expose it, revoke it immediately at `github.com/settings/tokens`
